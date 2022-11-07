@@ -1,0 +1,50 @@
+.list__item {
+  max-width: auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.438);
+  border-radius: 9px;
+  margin-left: auto;
+  background-color: rgba(68, 172, 73, 0.301);
+}
+
+.list__item-content {
+  display: flex;
+  align-items: center;
+}
+
+.list__item-check {
+  margin-right: 10px;
+}
+
+.list__item-title {
+  margin: 0;
+}
+
+.list__item-btn-edit {
+  background-color: rgb(37, 127, 37);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.list__item-btn-edit:hover {
+  opacity: 0.6;
+}
+
+.list__item-btn-delete {
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.list__item-btn-delete:hover {
+  opacity: 0.6;
+}
